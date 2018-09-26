@@ -1,0 +1,20 @@
+{
+  "name": "api-support-node-oauth",
+  "version": "1.0.0",
+  "description": "Node app using OAuth for Api Support internal testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James McCormack",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "hellosign-sdk": "^1.3.0",
+    "multer": "^1.3.1"
+  }
+}
